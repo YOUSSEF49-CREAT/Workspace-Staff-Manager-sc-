@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>Document</title>
+</head>
+<body>
+   <section class="section_globale">
+           <aside>
+                   <h2>staff Sambers</h2>
+                   <div class="card_small">
+                                <img src="" alt="">
+                                <div class="card_personelle">
+                                         <h3>name</h3>
+                                         <p>work</p>
+                                </div>
+                                <button>edit</button>
+                   </div>
+                   <button class="add_new_worker" id="add_new_worker">add new worker</button>
+           </aside>
+           <div class="work_env_dr">
+                  <div class="grand_chamber">
+                                <div class="chombre_1">
+                                        <button>+</button>
+                                </div>
+                                <div class="chomber_2">
+                                            <button>+</button>                                           
+                                </div>
+                  </div>
+                    <div class="prtit_chamber">
+                            <div class="petit_chamber_top">
+                                <div class="chomber_3">
+                                            <button>+</button>
+                                </div>
+                                <div class="chomber_4">
+                                            <button>+</button>
+                                </div>
+                            </div>
+                             <div class="petit_chamber_bottom">
+                                   <div class="chomber_5">
+                                            <button>+</button>
+                                   </div>
+                                    <div class="chomber_6">
+                                            <button>+</button>
+                                    </div>
+                            </div>
+                                
+                    </div>    
+                        
+           </div>
+           <form action="" class="form" id="form">
+                     <h2>add worker</h2>
+                     <label for="">name</label>
+                     <input  placeholder="name" type="text" id="name">
+                     <p id="name-error" class="error_p"></p>
+                     <select id="select" name="" >
+                        <option >Choose role</option>
+                        <option >it guy</option>
+                        <option >security</option>
+                        <option >cleaning</option>
+                        <option >other</option>
+                     </select>
+                     <p id="select" class="error_p"></p>
+                     <label for="">experience</label>
+                     <div class="div__experionce">
+                          <label for="">company</label>
+                          <input id="company" placeholder="company" type="text">
+                          <label for="">role</label>
+                          <input id="role" placeholder="role" type="text">
+                          <label for="">from</label>
+                          <input id="from" placeholder="from" type="date">
+                          <label for="">to</label>
+                          <input id="to" placeholder="to" type="date">
+                          <button id="add_experience">add experience</button>
+                     </div>
+                    
+                     <label for="">emaile</label>
+                     <input id="emaile" placeholder="emaile" type="text">
+                     <p id="emaile-error" class="error_p"></p>
+                     <label for="">phone</label>
+                     <input id="phone" placeholder="phone" type="text">
+                     <p id="phone-error" class="error_p"></p>
+                     <button id="add_info_worker" type="submit">add</button>
+
+           </form>
+    </section>
+    <script src="/assets/main.js"></script>
+</body>
+</html>
