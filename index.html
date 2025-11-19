@@ -17,34 +17,34 @@
            </aside>
            <div class="work_env_dr">
                   <div class="grand_chamber">
-                                <div class="chombre_1">
+                                <div class="chombre_1" id="chamber_1">
                                          <h3>conference room</3>
-                                        <button>+</button>
+                                        <button id="conference_room" data-axcept-rols="nettoyage,other,manager">+</button>
                                 </div>
-                                <div class="chomber_2">
+                                <div class="chomber_2" id="chomber_2">
                                              <h3>reception</h3>
-                                            <button>+</button>                                           
+                                            <button id="reception" data-axcept-rols="reception,nettoyage,manager">+</button>                                           
                                 </div>
                   </div>
                     <div class="prtit_chamber">
                             <div class="petit_chamber_top">
-                                <div class="chomber_3">
+                                <div class="chomber_3" id="chomber_3">
                                             <h3>servers room</h3>
-                                            <button>+</button>
+                                            <button id="servers" data-axcept-rols="it guy,manager,nettoyage">+</button>
                                 </div>
-                                <div class="chomber_4">
+                                <div class="chomber_4" id="chomber_4">
                                             <h3>security room</h3>
-                                            <button>+</button>
+                                            <button id="security" data-axcept-rols="security,nettoyage,manager">+</button>
                                 </div>
                             </div>
                              <div class="petit_chamber_bottom">
-                                   <div class="chomber_5">
+                                   <div class="chomber_5" id="chomber_5">
                                             <h3>staff room</h3>
-                                            <button>+</button>
+                                            <button id="staff" data-axcept-rols="manager,nettoyage,other">+</button>
                                    </div>
-                                    <div class="chomber_6">
+                                    <div class="chomber_6" id="chomber_6">
                                             <h3>vault</h3>
-                                            <button>+</button>
+                                            <button id="vault" data-axcept-rols="manager,other">+</button>
                                     </div>
                             </div>
                                 
@@ -54,7 +54,7 @@
            <form action="" class="form" id="form">
                 <div class="form_top">
                               <h2>add worker</h2>
-                              <button id="clos_form">x</button>
+                              <button type="button" id="clos_form">x</button>
                 </div>
                      
                      <label for="">name</label>
@@ -65,7 +65,10 @@
                         <option >Choose role</option>
                         <option >it guy</option>
                         <option >security</option>
+                        <option >RECEPTION</option>
                         <option >cleaning</option>
+                        <option >manager</option>
+                        <option >nettoyage</option>
                         <option >other</option>
                      </select>
                      <p id="select" class="error_p"></p>
@@ -79,7 +82,7 @@
                           <input id="from" placeholder="from" type="date">
                           <label for="">to</label>
                           <input id="to" placeholder="to" type="date">
-                          <button id="add_experience">add experience</button>
+                          <button id="add_experience" type="button">add experience</button>
                      </div>
                     
                      <label for="">emaile</label>
@@ -95,7 +98,7 @@
             
     </section>
      <div id="afiche_info">
-                      
+                       
                    
        </div>
       

@@ -12,10 +12,11 @@
     position: relative;
 }
 .section_globale aside{
-    width: 30%;
+    width: 20%;
     background-color: rgb(219, 207, 207);
     height: 100vh;
     gap: 20px;
+    
     
 }
 .section_globale aside h2{
@@ -34,6 +35,7 @@
     border-radius: 10px;
     margin: 10px auto;
     padding: 10px;
+    
 }
 .card_small img{
     width: 50px;
@@ -53,7 +55,7 @@
     margin: 20px;
 }
 .work_env_dr{
-    width: 70%;
+    width: 80%;
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -65,11 +67,12 @@
     justify-content: space-between;
 }
 .grand_chamber .chombre_1{
-    height: 35%;
+    height: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 10px black;
+     flex-direction: column;
 }
 .chomber_2{
      height: 60%;
@@ -77,10 +80,11 @@
      display: flex;
     justify-content: center;
     align-items: center;
+     flex-direction: column;
 }
 .prtit_chamber{
     height: 100vh;
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -89,15 +93,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35%;
+    height: 45%;
+    
 }
 .chomber_3{
+    
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     border: solid 10px black;
+    flex-direction: column;
 }
 .chomber_4{
     width: 50%;
@@ -106,12 +113,13 @@
     justify-content: center;
     align-items: center;
     border: solid 10px black;
+     flex-direction: column;
 }
 .petit_chamber_bottom{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 35%;
+    height: 45%;
     border: solid 10px black;
 }
 .chomber_5{
@@ -121,6 +129,7 @@
     justify-content: center;
     align-items: center;
     border: solid 10px black;
+     flex-direction: column;
 }
 .chomber_6{
     width: 50%;
@@ -129,6 +138,7 @@
     justify-content: center;
     align-items: center;
     border: solid 10px black;
+     flex-direction: column;
 
 }
 .work_env_dr button{
@@ -267,4 +277,18 @@ input , select{
     border-radius: 50%;
     background-color: rgb(255, 0, 0);
    padding: 6px 10px 20px 10px;
+}
+.confirence{
+    padding : 16px;
+    width: 20%;
+    margin: 10px auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.confirence img{
+    width: 30px;
+    height: 30px;
 }
